@@ -1,0 +1,179 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 30px;
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  letter-spacing: 3px;
+  background-color: #7776B3;
+  color: #E2BBE9;
+  font-size: 3rem;
+  border-radius: 10px;
+}
+
+nav {
+  margin-bottom: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+nav a {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  background-color: #80B9AD;
+  border-radius: 10px;
+}
+
+.create-quiz-heading {
+  margin: 20px;
+  padding: 15px;
+  font-size: 2rem;
+  text-decoration: underline;
+  color: rgb(84, 181, 129);
+}
+
+.quiz-title {
+  border: 1px solid black;
+  font-size: larger;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.question-container {
+  margin: 20px 0;
+}
+
+.question-input,
+.option-input,
+.correct-answer-input {
+  width: 60%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.option-input {
+  width: 50%;
+}
+
+.question-input::placeholder,
+.option-input::placeholder,
+.correct-answer-input::placeholder,
+.quiz-title::placeholder {
+  color: #888;
+  opacity: 1;
+  font-style: italic;
+}
+
+.submit-btn,
+.add-question-btn {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(50, 50, 168);
+  color: aliceblue;
+  border: none;
+  font-size: 1rem;
+}
+
+.submit-btn:hover,
+.add-question-btn:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.quiz-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quiz-item {
+  margin: 10px 0;
+}
+
+.quiz-link {
+  text-decoration: none;
+  color: #333;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.quiz-link:hover {
+  background-color: #ddd;
+}
+
+/* Styles for taking the quiz */
+
+.option-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.option-label {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 70%;
+  margin-bottom: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.option-label:hover {
+  background-color: #d9d9d9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.option-radio {
+  margin-right: 10px;
+}
+
+.feedback {
+  margin: 20px;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.feedback.correct {
+  background-color: #4caf50;
+}
+
+.feedback.incorrect {
+  background-color: #f44336;
+}
+
+/* Style for the submit button in the quiz component */
+
+.submit-btn {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(50, 50, 168);
+  color: aliceblue;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.submit-btn:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
