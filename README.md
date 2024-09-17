@@ -1,8 +1,8 @@
 ---
 
-# AspireNex Online Quiz Maker
+# Online Quiz Maker
 
-AspireNex Online Quiz Maker is a user-friendly application designed to simplify the process of creating and taking quizzes. It leverages the power of React and Vite to provide a high-performance, responsive user interface, making it an effective tool for both quiz creators and participants.
+Online Quiz Maker is a user-friendly application designed to simplify the process of creating and taking quizzes. It leverages the power of React and Vite to provide a high-performance, responsive user interface, making it an effective tool for both quiz creators and participants.
 
 ## Features
 
